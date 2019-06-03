@@ -1,0 +1,9 @@
+<html>
+<div id="sub-header">
+    <ul class="topnav">
+        <li *ngFor="let item of list" (click)="onNavigate(item)"><a>{{item.name}}</a></li>
+    </ul>
+</div>
+<router-outlet></router-outlet>
+
+</html>
