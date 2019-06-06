@@ -10,7 +10,7 @@ export class MenuComponent implements OnInit {
 
   list = [{name:"login",path:"loginn"},
   {name:"about",path:"about"},
-  {name:"contact",path:"contact"}];
+  {name:"contact",path:"contact"},{name:"form",path:"form"}];
 
  
   constructor(private router:Router) { }
